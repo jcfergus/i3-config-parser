@@ -1,0 +1,5 @@
+exec --no-startup-id "~/.config/linux-desktop-config/scripts/set_display_scale.sh"
+exec --no-startup-id "/usr/bin/dunst -config ~/.dunstrc"
+exec     "fusuma -d"
+exec "blueman-applet"
+exec --no-startup-id "/usr/bin/flameshot \"schmoo\""

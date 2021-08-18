@@ -1,0 +1,10 @@
+bar {
+				colors {
+					background #00000099
+				}
+				i3bar_command i3bar --transparency
+				font pango: DejaVu Sans 10
+        			status_command py3status -b --config ~/.config/i3status/i3status.conf
+				separator_symbol " # "
+				output primary
+}

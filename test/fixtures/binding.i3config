@@ -1,0 +1,7 @@
+bindsym Mod4+p exec autorandr -c
+
+bindsym Mod4+b exec "jumpapp -R -c TempBrowser -m /usr/bin/chromium-browser --temp-profile --class=\"TempBrowser\""
+bindsym Mod4+Shift+b [class="(?i)tempbrowser"] move window to workspace $ws8
+
+bindsym Mod4+n exec "jumpapp -R -m /snap/bin/simplenote"
+bindsym Mod4+Shift+n [class="(?i)simplenote"] move window to workspace $ws8

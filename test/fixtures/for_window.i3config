@@ -1,0 +1,7 @@
+for_window [class="(?i)zoom"] floating enable
+for_window [class="(?i)pavucontrol"] floating enable
+for_window [class="(?i)terraria"] floating enable
+for_window [class="(?i)minecraft"] floating enable
+for_window [title="Connect to WiFi"] floating enable
+for_window [title="Agenda for"] floating enable border none
+for_window [title="Slack"] floating enable

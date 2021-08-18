@@ -1,0 +1,5 @@
+# i3 config file (v4)
+set $mod Mod1
+set $mod2 Mod4
+
+bindsym $mod2+p exec autorandr -c
