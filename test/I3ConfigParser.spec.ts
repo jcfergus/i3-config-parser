@@ -1,5 +1,5 @@
-import I3ConfigFileParser from '../I3ConfigFileParser';
-import { SPECFILE_PATH } from '../../index';
+import I3ConfigFileParser from '../src/I3ConfigFileParser';
+import { SPECFILE_PATH } from '../src';
 
 describe('i3 Config Parser', () => {
   describe('parser spec', () => {

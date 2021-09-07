@@ -1,8 +1,9 @@
 import ConfigParser from './I3ConfigParser';
 import { Configuration, ConfigurationItem, WindowCriteria } from './models/Configuration';
+import specFile from './parser-spec/4.19.2/config.spec';
 
 const CURRENT_I3_CONFIG_SPEC_VERSION = '4.19.2';
-const SPECFILE_PATH = `${__dirname}/parser-spec/${CURRENT_I3_CONFIG_SPEC_VERSION}/config.spec`;
+const SPECFILE_PATH = specFile;
 
 export {
   SPECFILE_PATH,

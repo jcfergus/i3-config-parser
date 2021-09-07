@@ -13,6 +13,7 @@
   },
   "include": [
     "./src",
+    "./src/spec.d.ts"
   ],
   "exclude": [
     "node_modules",

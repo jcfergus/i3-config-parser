@@ -8,7 +8,8 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:import/recommended',
-    'plugin:import/typescript'
+    'plugin:import/typescript',
+    'plugin:jest/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -16,7 +17,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    '@typescript-eslint',
+    'jest',
+    '@typescript-eslint'
   ],
   rules: {
     "max-len": [
