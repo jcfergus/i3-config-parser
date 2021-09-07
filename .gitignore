@@ -2,3 +2,4 @@ dist
 dist.browser
 node_modules
 coverage
+i3-config-parser.iml

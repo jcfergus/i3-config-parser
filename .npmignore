@@ -1,1 +1,11 @@
 coverage
+dist
+test
+.eslintignore
+.eslintrc.js
+jest.config.json
+setupJest.ts
+tsconfig.*
+unwrap.js
+webpack.config.js
+i3-config-parser.iml
