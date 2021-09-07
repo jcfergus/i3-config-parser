@@ -1,6 +1,6 @@
 {
   "name": "i3-config-parser",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "i3wm configuration file parser",
   "main": "src/index.js",
   "scripts": {
